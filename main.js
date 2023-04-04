@@ -25,6 +25,6 @@ const menuItems = [
   const year = new Date().getFullYear();
   footer.innerHTML = `
     <p>© ${year} Emlyn O'Regan. All rights reserved.</p>
-    <p>This website was created by ChatGPT using JavaScript.</p>
+    <p>This website was created in conversation with ChatGPT.</p>
   `;
   
