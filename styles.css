@@ -13,7 +13,7 @@ header {
     background-color: #1e4f79;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 1rem;
 }
@@ -89,3 +89,45 @@ footer {
 footer p {
     color: #fff;
 }
+
+.site-title {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-nav {
+    margin-top: 0;
+    font-size: 1.2rem;
+    opacity: 0.6;
+  }
+
+.site-title a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.nav-links {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: #999999;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #333333;
+  }
