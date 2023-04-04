@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>emlynoregan.com</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <section>
+        <h2>Welcome</h2>
+        <p>This site showcases some projects I've worked on over the years. The site itself is static, built via a conversation with ChatGPT.</p>
+        <ul>
+          <li><a href="themetalwizard.html">The Metal Wizard</a> - A web app for managing authentication and authorization</li>
+          <li><a href="sutllang.html">Sutllang</a> - A language used to transform JSON structures</li>
+          <li><a href="ytsummary_streamlit.html">YouTube Summarizer</a> - A web app that uses GPT3.5 to summarize YouTube videos</li>
+        </ul>
+        <p>Feel free to explore and learn more about my work. Thanks for visiting!</p>
+      </section>
+    </main>
+    <footer id="footer"></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
