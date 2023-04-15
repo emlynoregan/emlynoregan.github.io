@@ -1,7 +1,8 @@
 const menuItems = [
-    { label: "Metal Wizard", url: "themetalwizard.html" },
+  { label: "Spelunk", url: "spelunk.html" },
+  { label: "YT Summary", url: "ytsummary_streamlit.html" },
+  { label: "Metal Wizard", url: "themetalwizard.html" },
     { label: "sUTL", url: "sutllang.html" },
-    { label: "YT Summary", url: "ytsummary_streamlit.html" },
   ];
   
   const header = document.getElementById("header");
