@@ -1,4 +1,5 @@
 const menuItems = [
+  { label: "Flappy Bird", url: "flappybird.html" },
   { label: "Spelunk", url: "spelunk.html" },
   { label: "YT Summary", url: "ytsummary_streamlit.html" },
   { label: "Metal Wizard", url: "themetalwizard.html" },
