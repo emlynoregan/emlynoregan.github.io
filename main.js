@@ -1,7 +1,6 @@
 const menuItems = [
   { label: "Flappy Bird", url: "flappybird.html" },
-  { label: "Spelunk", url: "spelunk.html" },
-  { label: "YT Summary", url: "ytsummary_streamlit.html" },
+  { label: "Orc Simulator", url: "orcsimulator.html" },
   { label: "Metal Wizard", url: "themetalwizard.html" },
     { label: "sUTL", url: "sutllang.html" },
   ];
