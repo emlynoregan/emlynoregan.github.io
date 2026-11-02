@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-02",
+  "account": "214770884410",
+  "implementation_commit": "38fb3b7",
+  "distribution": {
+    "id": "E7XLBZDR5GVHB",
+    "domain": "d1yyu588p4ns2m.cloudfront.net",
+    "status": "Deployed",
+    "enabled": true,
+    "previously_enabled": false
+  },
+  "function": {
+    "name": "emlynoregan-root-to-everything",
+    "runtime": "cloudfront-js-2.0",
+    "sha256": "00401bf18f5e395c2d961244159536713cd6d91d8396f98ec0c36c1e4fc9ae35",
+    "associated_behaviors": [
+      "default",
+      "content/*"
+    ],
+    "test_status": 301
+  },
+  "dns": {
+    "zone": "Z01363303HJW7MS0Z4BB4",
+    "name": "emlynoregan.com.",
+    "type": "A",
+    "change_id": "/change/C06975451F3W5DZKXIGRL",
+    "status": "INSYNC",
+    "target": "d1yyu588p4ns2m.cloudfront.net.",
+    "previous": {
+      "ttl": 300,
+      "addresses": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ]
+    }
+  },
+  "verification": {
+    "get_redirects": [
+      {
+        "url": "https://emlynoregan.com/",
+        "status": 301,
+        "location": "https://everything.emlynoregan.com/guide",
+        "cache": "FunctionGeneratedResponse from cloudfront"
+      },
+      {
+        "url": "http://emlynoregan.com/content/old-page?old=1",
+        "status": 301,
+        "location": "https://everything.emlynoregan.com/guide",
+        "cache": "FunctionGeneratedResponse from cloudfront"
+      }
+    ],
+    "followed_destination": {
+      "status": 200,
+      "url": "https://everything.emlynoregan.com/guide",
+      "bytes": 12120
+    }
+  },
+  "scope": "Exact apex hostname only; previous static files preserved; no Everything application or MCP deployment.",
+  "rollback": "Restore saved four-address A record (TTL 300); restore saved distribution preimage after traffic returns to GitHub Pages."
+}
